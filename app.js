@@ -11,4 +11,4 @@ app.use(express.json());
 
 // app.use('/', indexRouter);
 
-app.listen(3000, () => console.log('Все работает'));
+app.listen(3000, () => console.log('На связи!'));
