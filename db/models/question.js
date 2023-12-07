@@ -13,14 +13,12 @@ module.exports = (sequelize, DataTypes) => {
   }
   Question.init(
     {
-      quest: {
+      question: {
         allowNull: false,
-
         type: DataTypes.TEXT,
       },
       answer: {
         allowNull: false,
-
         type: DataTypes.TEXT,
       },
       img: {
@@ -28,7 +26,6 @@ module.exports = (sequelize, DataTypes) => {
       },
       categoryId: {
         allowNull: false,
-
         type: DataTypes.INTEGER,
         references: {
           model: 'Categories',
