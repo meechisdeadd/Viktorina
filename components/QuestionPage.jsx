@@ -7,9 +7,13 @@ function QuestionPage({ question, user }) {
       <div className="container1">
         <div className="question">
           <p>{question.question}</p>
-          <img src={question.img} alt="" />
+          <img src={question.img} className="image_quest" alt="" />
         </div>
+
         <form className="answer" id={question.id}>
+
+        <form className="answer" data-id={question.id}>
+
           <input
             type="text"
             id="question"
