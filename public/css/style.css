@@ -32,3 +32,8 @@
   font-size: 18px;
   cursor: pointer;
 }
+
+.helloScore {
+  display: flex;
+  justify-content: center;
+}
