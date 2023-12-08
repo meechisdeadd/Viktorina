@@ -1,5 +1,5 @@
-const React = require("react");
-const Layout = require("./Layout");
+const React = require('react');
+const Layout = require('./Layout');
 
 function QuestionPage({ question, user }) {
   return (
@@ -16,7 +16,7 @@ function QuestionPage({ question, user }) {
             name="answer"
             placeholder="ВВЕДИТЕ ОТВЕТ"
             required
-          />{" "}
+          />{' '}
           <button className="answerBtn" type="submit">
             TRY
           </button>
@@ -28,6 +28,7 @@ function QuestionPage({ question, user }) {
           СЛЕДУЮЩИЙ ВОПРОС
         </button>
       </a>
+
       {user && <div className="score">{user.score}</div>}
     </Layout>
   );
