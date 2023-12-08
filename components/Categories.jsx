@@ -12,7 +12,7 @@ function Categories({ categories }) {
               <p>{category.name}</p>
               <img
                 src={category.img}
-                style={{ width: '200px', borderRadius: '5px', margin: '5px' }}
+                style={{ width: '350px', borderRadius: '5px', margin: '5px' }}
               />
             </a>
           </div>
