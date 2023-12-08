@@ -4,7 +4,7 @@ const Layout = require("./Layout");
 function QuestionPage({ question, user }) {
   return (
     <Layout>
-      <div className="container">
+      <div className="container1">
         <div className="question">
           <p>{question.question}</p>
           <img src={question.img} alt="" />
