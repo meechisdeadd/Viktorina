@@ -17,4 +17,15 @@ router.get("/:categoryId/question/:questionId", async (req, res) => {
   }
 });
 
+
+
+router.post('/answer', async(req,res)=>{
+  const {answer}=req.body
+  const trueAnswer = await Question.findOne({})
+})
+
+
+
+
+
 module.exports = router;

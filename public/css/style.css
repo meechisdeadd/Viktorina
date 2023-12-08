@@ -33,7 +33,31 @@
   cursor: pointer;
 }
 
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  background-color: 'https://superwalls.top/uploads/posts/2022-03/1648553377_2-gamerwall-pro-p-sirenevii-fon-s-uzorami-krasivie-3.jpg';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+margin-top: 200px;
+}
+.container {
+  background-color: 'https://superwalls.top/uploads/posts/2022-03/1648553377_2-gamerwall-pro-p-sirenevii-fon-s-uzorami-krasivie-3.jpg';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
 .helloScore {
   display: flex;
   justify-content: center;
+
 }
