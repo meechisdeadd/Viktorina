@@ -20,8 +20,15 @@ router.get("/:categoryId/question/:questionId", async (req, res) => {
 
 
 router.post('/answer', async(req,res)=>{
-  const {answer}=req.body
-  const trueAnswer = await Question.findOne({})
+  const {answer,questionId}=req.body
+  console.log(answer,questionId,'+++++++++++++');
+  const trueAnswer = await Question.findOne({where:{id:questionId}})
+  console.log(trueAnswer.answer,'+_____________');
+  if(answer.toLowerCase()===trueAnswer.answer.toLowerCase()){
+    return res.json({message:'success', true:trueAnswer.answer})
+  }else{
+    return res.json({message:'error', true:false})
+  }
 })
 
 

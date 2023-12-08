@@ -4,12 +4,12 @@ const Layout = require("./Layout");
 function QuestionPage({ question, user }) {
   return (
     <Layout>
-      <div className="container1">
+      <div className="container1" >
         <div className="question">
           <p>{question.question}</p>
           <img src={question.img} alt="" />
         </div>
-        <form className="answer">
+        <form className="answer" id={question.id}>
           <input
             type="text"
             id="question"
@@ -29,6 +29,7 @@ function QuestionPage({ question, user }) {
         </button>
       </a>
       {user && <div className="score">{user.score}</div>}
+      <div className="answerDiv"></div>
     </Layout>
   );
 }
