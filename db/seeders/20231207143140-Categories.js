@@ -8,13 +8,19 @@ module.exports = {
       [
         {
           name: 'Цитаты Джейсона Стетхема',
-          img: 'https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/958b0a05-f3f0-4755-8ff7-995137af84fc/220x330',
+          img: 'https://sun9-12.userapi.com/impg/_JcCPm3OAEzgPHXzSrTrcxmWa-3WBuU1ma7tzw/J3-0hGfvhuU.jpg?size=807x605&quality=96&sign=696e8e3cbb71df62234acdab43687474&c_uniq_tag=DxNuMu-9eyllBQVR1LKP13qNuCDjmmCwOuR8NdjMazg&type=album',
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          name: 'Угадай фильм',
-          img: 'https://avatars.dzeninfra.ru/get-zen_doc/4394028/pub_64579a9c1027207a00136f0d_64579b36f98ff0723cc300b7/scale_1200',
+          name: 'Угадай фильм по кадру',
+          img: 'https://images.techinsider.ru/upload/img_cache/3ca/3cadf68150314b603d81892b6d4cdf42_cropped_666x441.jpg',
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          name: 'Вопросы про Новый Год',
+          img: 'https://cdn.segodnya.ua/i/original/media/image/5de/f7a/b21/5def7ab219d8f.jpg',
           createdAt: new Date(),
           updatedAt: new Date(),
         },
