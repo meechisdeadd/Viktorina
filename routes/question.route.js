@@ -27,7 +27,7 @@ router.post('/answer', async(req,res)=>{
   if(answer.toLowerCase()===trueAnswer.answer.toLowerCase()){
     return res.json({message:'success', true:trueAnswer.answer})
   }else{
-    return res.json({message:'error', true:false})
+    return res.json({message:'error', true:trueAnswer.answer})
   }
 })
 
