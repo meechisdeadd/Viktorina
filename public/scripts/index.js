@@ -21,9 +21,9 @@ if (answerForm) {
     if (body.message === "success") {
       document
         .querySelector(".answerDiv")
-        .insertAdjacentHTML("afterend", "правильно");
+        .insertAdjacentHTML("afterend", "М О Л О Д Е Ц!");
     } else {
-      document.querySelector(".answerDiv").insertAdjacentHTML("afterend",`НЕ ПРАВИЛЬНО, ПРАВИЛЬНЫЙ ОТВЕТ: ${body.true}`) ;
+      document.querySelector(".answerDiv").insertAdjacentHTML("afterend",`Неправильно!, Правильный ответ: ${body.true}`) ;
     }
   });
 }

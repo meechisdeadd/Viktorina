@@ -1,29 +1,28 @@
-const React = require("react");
-const Layout = require("./Layout");
+const React = require('react');
+const Layout = require('./Layout');
 
 function QuestionPage({ question, user }) {
   return (
     <Layout>
       <div className="container1">
         <div className="question">
-          <p>{question.question}</p>
+          <p style={{ fontSize: '30px' }}>{question.question}</p>
           <img src={question.img} className="image_quest" alt="" />
         </div>
 
         <form className="answer" id={question.id}>
-
-        <form className="answer" data-id={question.id}>
-
-          <input
-            type="text"
-            id="question"
-            name="answer"
-            placeholder="ВВЕДИТЕ ОТВЕТ"
-            required
-          />{" "}
-          <button className="answerBtn" type="submit">
-            TRY
-          </button>
+          <form className="answer" data-id={question.id}>
+            <input
+              type="text"
+              id="question"
+              name="answer"
+              placeholder="ВВЕДИТЕ ОТВЕТ"
+              required
+            />{' '}
+            <button className="answerBtn" type="submit">
+              TRY
+            </button>
+          </form>
         </form>
       </div>
 
